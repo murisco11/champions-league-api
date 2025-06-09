@@ -1,19 +1,25 @@
-  # Champions League API
+# ⚽ API da Champions League
 
-  Bem-vindo ao projeto da API REST para a Champions League. Esta API permite gerenciar jogadores com operações CRUD (Criar, Ler, Atualizar, Deletar). O projeto é desenvolvido em TypeScript, SQL e Node.js.
+Bem-vindo ao projeto da API REST para a **Champions League**. Esta API foi desenvolvida para gerenciar informações de jogadores e clubes, permitindo operações de criação, leitura, atualização e exclusão de dados de forma simples e eficiente.
 
-  ## Funcionalidades
+O projeto foi construído utilizando um stack robusto com Node.js e TypeScript, garantindo um código seguro, escalável e de fácil manutenção.
 
-  - **CRUD para Jogadores**
-    - Adicionar um jogador
-    - Obter informações de um jogador
-    - Atualizar informações de um jogador
-    - Deletar um jogador
-    - Obter informações de um clube
+---
+## 🚀 Tecnologias Utilizadas
 
-  ## Tecnologias
+* **Node.js**: Ambiente de execução para o JavaScript/TypeScript no lado do servidor.
+* **TypeScript**: Superset do JavaScript que adiciona tipagem estática, aumentando a robustez e a clareza do código.
+* **Express**: Framework minimalista para a construção da API, gerenciamento de rotas e requisições HTTP.
+* **MySQL**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e consultar os dados.
 
-  - MYSql
-  - Node.js
-  - TypeScript
-  - Express
+---
+## ✅ Funcionalidades Principais
+
+* **Gerenciamento de Jogadores (CRUD)**:
+    * Adicionar um novo jogador ao banco de dados.
+    * Listar todos os jogadores cadastrados.
+    * Obter as informações de um jogador específico por seu ID.
+    * Atualizar os dados de um jogador.
+    * Deletar o registro de um jogador.
+* **Consulta de Clubes**:
+    * Obter informações detalhadas de um clube específico.
